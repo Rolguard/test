@@ -1,0 +1,54 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-image: linear-gradient(red, yellow);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+.text-color-red {
+  color: red;
+}
+
+.text-arial {
+  font-family: Arial;
+}
+
+.about-me-section {
+  background-color: green;
+  color: yellow;
+  padding-bottom: 200px;
+  border: 5px solid purple;
+  margin: auto;
+  max-width: 500px;
+}
+
+.travel-section {
+  background-color: blue;
+  padding: 100px;
+  order: 5px solid orange;
+}
